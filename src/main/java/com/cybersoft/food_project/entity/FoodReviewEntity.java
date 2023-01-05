@@ -14,7 +14,7 @@ public class FoodReviewEntity {
     @Column(name = "content")
     private String content;
     @Column(name = "create_date")
-    private Timestamp createDate;
+    private Timestamp createDate; //Date type, localDate
     @Column(name = "rate")
     private float rate;
 
